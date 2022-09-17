@@ -14,6 +14,10 @@ extern "C" {
     fn pcre2_get_ovector_pointer_8(match_data: *mut c_void) -> *mut usize;
 }
 
+// todo
+// pcre2-16
+// pcre2-32
+
 
 // 仿照demo流程写法
 // pcre2demo man page： https://pcre2project.github.io/pcre2/doc/html/pcre2demo.html
@@ -28,7 +32,7 @@ extern "C" {
 //     - pattern   正则表达式
 //     - subject   目标字符串
 // return:
-//     - （satrt, end）  匹配结果的开始索引-结束索引
+//     - vec<string> 匹配结果
 pub fn find(pattern: &str, subject: &str) -> Vec<String>{
     // 编译正则比表达式
     let mut errorcode: i32 = 0;
