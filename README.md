@@ -53,7 +53,7 @@ make install
 ```
 
 安装成功如图，相关的库安装在`/usr/lib`目录下：
-![](F:\boxi_rust\rust-call-pcre2\img\pcre2.png)
+![](./img/pcre2.png)
 
 
 ### 使用
@@ -87,4 +87,4 @@ nc -ulp port
 
 测试结果
 
-![](F:\boxi_rust\rust-call-pcre2\img\result.png)
+![](./img/result.png)
