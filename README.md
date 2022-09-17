@@ -88,3 +88,6 @@ nc -ulp port
 测试结果
 
 ![](./img/result.png)
+
+监听结果
+![](./img/listen.png)
