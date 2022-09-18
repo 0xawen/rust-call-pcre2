@@ -27,7 +27,7 @@ extern "C" {
 //       3. pcre2_match()
 //       4. ovector = pcre2_get_ovector_pointer(match_data);
 //       5. ...
-// find_one 根据正则从目标字符串中提取一个子串
+// find 根据正则从目标字符串中提取一个子串
 // args: 
 //     - pattern   正则表达式
 //     - subject   目标字符串
